@@ -23,7 +23,7 @@ public class Producto {
     private String nombre;
     private Peso peso;
     private Proceso proceso;
-    private String precio;
+    private int precio;
     private Modalidad modalidad;
 
 }

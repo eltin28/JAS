@@ -22,7 +22,6 @@ public record ActualizarProductoDTO(
         String idProceso,
 
         @NotNull(message = "El precio no puede estar vacío")
-        @Positive(message = "El precio debe ser mayor a 0")
         int precio,
 
         @NotNull(message = "Debe seleccionar una modalidad")

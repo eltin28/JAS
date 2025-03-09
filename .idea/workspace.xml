@@ -5,40 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90cabbf5-fd33-423c-a402-d8a5162e3961" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/inventario/ActualizarInventarioDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/inventario/CrearInventarioDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/inventario/ItemInventarioDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/proceso/ActualizarProcesoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/proceso/CrearProcesoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/proceso/DetalleProcesoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/producto/ActualizarProductoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/producto/CrearProductoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/producto/DetalleProductoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/exceptions/InventarioException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/exceptions/ProcesoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/exceptions/ProductoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/exceptions/ProyectoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/handlers/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/model/documents/Inventario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/model/documents/Proceso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/model/documents/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/model/enums/EstadoCuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/model/enums/Modalidad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/model/enums/Peso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/model/enums/Rol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/model/enums/TipoPago.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/model/enums/TipoPasaje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/model/vo/ItemInventario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/repository/InventarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/repository/ProcesoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/repository/ProductoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/service/implement/ProcesoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/service/service/InventarioService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/service/service/ProcesoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/service/service/ProductoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/ProductoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/controllers/EmpleadoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/autenticacion/MensajeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/inventario/ActualizarItemInventarioDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/inventario/DetalleInventarioDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/service/implement/InventarioServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/service/implement/ProductoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/jas/JasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jasAplication/JasApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/dto/inventario/ActualizarInventarioDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/dto/inventario/ItemInventarioDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/inventario/ItemInventarioDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/dto/producto/ActualizarProductoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/producto/ActualizarProductoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/dto/producto/CrearProductoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/producto/CrearProductoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/exceptions/InventarioException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jasAplication/exceptions/InventarioException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/exceptions/ProductoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jasAplication/exceptions/ProductoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/model/documents/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jasAplication/model/documents/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/service/service/InventarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jasAplication/service/service/InventarioService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +35,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -111,7 +92,7 @@
       <updated>1740662233416</updated>
       <workItem from="1740662242357" duration="4971000" />
       <workItem from="1741022790605" duration="7335000" />
-      <workItem from="1741291020929" duration="11624000" />
+      <workItem from="1741291020929" duration="20446000" />
     </task>
     <servers />
   </component>

@@ -13,6 +13,10 @@ public class InventarioException extends ProyectoException {
         return new InventarioException("No se pudo actualizar el inventario con ID " + id);
     }
 
+    public static InventarioException itemNoEncontrado(String idProducto) {
+        return new InventarioException("No se encontró el item con ID: " + idProducto + " en el inventario.");
+    }
+
     public static InventarioException itemNoDisponible(String nombreProducto) {
         return new InventarioException("El producto '" + nombreProducto + "' no está disponible en el inventario.");
     }

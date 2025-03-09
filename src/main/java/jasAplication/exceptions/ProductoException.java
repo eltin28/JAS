@@ -13,6 +13,10 @@ public class ProductoException extends ProyectoException {
         return new ProductoException("Ocurrió un error al crear el producto.");
     }
 
+    public static ProductoException nombreInvalido() {
+        return new ProductoException("El nombre del producto no puede estar vacío.");
+    }
+
     public static ProductoException errorAlActualizarProducto(String id) {
         return new ProductoException("No se pudo actualizar el producto con ID " + id);
     }
