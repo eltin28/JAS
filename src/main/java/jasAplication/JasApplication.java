@@ -1,4 +1,4 @@
-package co.edu.uniquindio.jas;
+package jasAplication;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
