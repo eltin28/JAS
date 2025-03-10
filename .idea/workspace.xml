@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90cabbf5-fd33-423c-a402-d8a5162e3961" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/controllers/EmpleadoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/autenticacion/MensajeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/inventario/ActualizarItemInventarioDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/inventario/DetalleInventarioDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/service/implement/InventarioServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jasAplication/service/implement/ProductoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/dto/inventario/ActualizarInventarioDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/dto/inventario/ItemInventarioDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/inventario/ItemInventarioDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/dto/producto/ActualizarProductoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/producto/ActualizarProductoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/dto/producto/CrearProductoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jasAplication/dto/producto/CrearProductoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/exceptions/InventarioException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jasAplication/exceptions/InventarioException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/exceptions/ProductoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jasAplication/exceptions/ProductoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/model/documents/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jasAplication/model/documents/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jasAplication/service/service/InventarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jasAplication/service/service/InventarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +20,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,7 +66,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;render&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -82,6 +84,15 @@
       <recent name="jasAplication.model.enums" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="JasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="JAS.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jasAplication.JasApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -92,7 +103,8 @@
       <updated>1740662233416</updated>
       <workItem from="1740662242357" duration="4971000" />
       <workItem from="1741022790605" duration="7335000" />
-      <workItem from="1741291020929" duration="20446000" />
+      <workItem from="1741291020929" duration="22122000" />
+      <workItem from="1741576117105" duration="2328000" />
     </task>
     <servers />
   </component>
